@@ -32,7 +32,7 @@ def __getattr__(name: str) -> object:
 
         return Worksheet
     if name == "Cell":
-        from sheetcraft.cell import Cell  # type: ignore[import-not-found]
+        from sheetcraft.cell import Cell
 
         return Cell
     raise AttributeError(f"module 'sheetcraft' has no attribute {name!r}")
