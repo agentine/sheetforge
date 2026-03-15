@@ -9,6 +9,7 @@ authors = [
 ]
 requires-python = ">=3.10"
 dependencies = []
+keywords = ["excel", "xlsx", "spreadsheet", "openpyxl", "ooxml"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -19,6 +20,8 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Typing :: Typed",
+    "Topic :: Office/Business :: Financial :: Spreadsheet",
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 
 [project.optional-dependencies]
@@ -27,6 +30,7 @@ lxml = ["lxml>=5.0"]
 [project.urls]
 Homepage = "https://github.com/agentine/sheetcraft"
 Repository = "https://github.com/agentine/sheetcraft"
+Changelog = "https://github.com/agentine/sheetcraft/releases"
 
 [build-system]
 requires = ["hatchling"]
@@ -39,6 +43,7 @@ packages = ["src/sheetcraft"]
 dev = [
     "mypy>=1.19",
     "pytest>=9.0",
+    "pytest-cov>=6.0",
     "ruff>=0.11",
 ]
 
