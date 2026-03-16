@@ -1,8 +1,8 @@
-"""Tests for sheetcraft.styles."""
+"""Tests for sheetforge.styles."""
 
 from __future__ import annotations
 
-from sheetcraft.styles import (
+from sheetforge.styles import (
     Alignment,
     Border,
     CellStyle,
@@ -13,7 +13,7 @@ from sheetcraft.styles import (
     Side,
     StyleSheet,
 )
-from sheetcraft.styles.numbers import BUILTIN_FORMATS, FORMAT_GENERAL
+from sheetforge.styles.numbers import BUILTIN_FORMATS, FORMAT_GENERAL
 
 
 class TestFont:

@@ -1,4 +1,4 @@
-"""Tests for sheetcraft.workbook."""
+"""Tests for sheetforge.workbook."""
 
 from __future__ import annotations
 
@@ -7,8 +7,8 @@ import os
 
 import pytest
 
-from sheetcraft import Workbook, load_workbook, Worksheet
-from sheetcraft.exceptions import SheetTitleException, InvalidFileException, WorkbookAlreadySaved
+from sheetforge import Workbook, load_workbook, Worksheet
+from sheetforge.exceptions import SheetTitleException, InvalidFileException, WorkbookAlreadySaved
 
 
 class TestWorkbookCreate:

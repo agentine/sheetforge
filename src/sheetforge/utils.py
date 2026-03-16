@@ -5,7 +5,7 @@ from __future__ import annotations
 import re
 from typing import Iterator
 
-from sheetcraft.exceptions import CellCoordinatesException
+from sheetforge.exceptions import CellCoordinatesException
 
 _COL_RE = re.compile(r"^[A-Z]{1,3}$")
 _CELL_RE = re.compile(r"^(\$?)([A-Z]{1,3})(\$?)(\d+)$")

@@ -6,7 +6,7 @@ import io
 import xml.etree.ElementTree as ET
 import zipfile
 
-from sheetcraft.constants import (
+from sheetforge.constants import (
     CT_RELATIONSHIPS,
     CT_SHARED_STRINGS,
     CT_STYLES,
@@ -26,9 +26,9 @@ from sheetcraft.constants import (
     REL_STYLES,
     REL_WORKSHEET,
 )
-from sheetcraft.styles import StyleSheet
-from sheetcraft.writer.shared_strings import write_shared_strings
-from sheetcraft.writer.styles import write_styles
+from sheetforge.styles import StyleSheet
+from sheetforge.writer.shared_strings import write_shared_strings
+from sheetforge.writer.styles import write_styles
 
 
 def _content_types_xml(sheet_count: int, has_shared_strings: bool) -> bytes:

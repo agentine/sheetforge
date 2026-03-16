@@ -1,8 +1,8 @@
-# sheetcraft
+# sheetforge
 
 **Target:** openpyxl (209M monthly PyPI downloads)
 **Language:** Python
-**Package Name:** sheetcraft (verified available on PyPI)
+**Package Name:** sheetforge (verified available on PyPI)
 
 ## Problem
 
@@ -17,7 +17,7 @@ Drop-in replacement for openpyxl's most-used features. Pure Python, zero require
 OOXML spreadsheets (.xlsx) are ZIP archives containing XML files. Core components:
 
 ```
-sheetcraft/
+sheetforge/
 ├── workbook.py         # Workbook class (open/create/save)
 ├── worksheet.py        # Worksheet class (cells, rows, columns)
 ├── cell.py             # Cell class (value, type, formatting)
@@ -81,7 +81,7 @@ sheetcraft/
 Match openpyxl's public API where practical:
 
 ```python
-from sheetcraft import Workbook, load_workbook
+from sheetforge import Workbook, load_workbook
 
 # Create
 wb = Workbook()
@@ -108,7 +108,7 @@ for row in ws.iter_rows(min_row=1, values_only=True):
 
 ## Deliverables
 
-- `sheetcraft` PyPI package
+- `sheetforge` PyPI package
 - Full test suite with >90% coverage
 - API documentation
 - Migration guide from openpyxl

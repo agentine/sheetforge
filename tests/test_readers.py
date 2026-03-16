@@ -1,11 +1,11 @@
-"""Tests for sheetcraft.reader modules."""
+"""Tests for sheetforge.reader modules."""
 
 from __future__ import annotations
 
-from sheetcraft.reader.shared_strings import read_shared_strings
-from sheetcraft.reader.styles import read_styles
-from sheetcraft.reader.worksheet import read_worksheet
-from sheetcraft.reader.workbook import read_workbook, read_workbook_rels
+from sheetforge.reader.shared_strings import read_shared_strings
+from sheetforge.reader.styles import read_styles
+from sheetforge.reader.worksheet import read_worksheet
+from sheetforge.reader.workbook import read_workbook, read_workbook_rels
 
 _SST_XML = b"""\
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>

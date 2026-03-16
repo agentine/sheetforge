@@ -1,17 +1,17 @@
-# sheetcraft
+# sheetforge
 
 Modern Python library for reading and writing Excel .xlsx files — drop-in openpyxl replacement.
 
 ## Install
 
 ```bash
-pip install sheetcraft
+pip install sheetforge
 ```
 
 ## Quick Start
 
 ```python
-from sheetcraft import Workbook, load_workbook
+from sheetforge import Workbook, load_workbook
 
 # Create a new workbook
 wb = Workbook()

@@ -1,15 +1,15 @@
-"""Tests for sheetcraft.cell."""
+"""Tests for sheetforge.cell."""
 
 from __future__ import annotations
 
 from datetime import date, datetime, time
 
-from sheetcraft.cell import Cell
-from sheetcraft.constants import TYPE_BOOL, TYPE_FORMULA, TYPE_NUMERIC, TYPE_STRING
-from sheetcraft.styles.fonts import Font
-from sheetcraft.styles.fills import PatternFill
-from sheetcraft.styles.borders import Border, Side
-from sheetcraft.styles.alignment import Alignment
+from sheetforge.cell import Cell
+from sheetforge.constants import TYPE_BOOL, TYPE_FORMULA, TYPE_NUMERIC, TYPE_STRING
+from sheetforge.styles.fonts import Font
+from sheetforge.styles.fills import PatternFill
+from sheetforge.styles.borders import Border, Side
+from sheetforge.styles.alignment import Alignment
 
 
 class TestCellCoordinates:

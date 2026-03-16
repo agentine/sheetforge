@@ -5,7 +5,7 @@ from __future__ import annotations
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field
 
-from sheetcraft.constants import NS_PACKAGE_RELS, NS_SPREADSHEETML
+from sheetforge.constants import NS_PACKAGE_RELS, NS_SPREADSHEETML
 
 _NS_WB = f"{{{NS_SPREADSHEETML}}}"
 _NS_REL = f"{{{NS_PACKAGE_RELS}}}"

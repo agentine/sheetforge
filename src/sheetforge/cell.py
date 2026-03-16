@@ -1,20 +1,20 @@
-"""Cell class for sheetcraft."""
+"""Cell class for sheetforge."""
 
 from __future__ import annotations
 
 from datetime import date, datetime, time
 from typing import TYPE_CHECKING
 
-from sheetcraft.constants import TYPE_BOOL, TYPE_ERROR, TYPE_FORMULA, TYPE_NUMERIC, TYPE_STRING
-from sheetcraft.styles.alignment import Alignment
-from sheetcraft.styles.borders import Border
-from sheetcraft.styles.fills import PatternFill
-from sheetcraft.styles.fonts import Font
-from sheetcraft.styles.numbers import FORMAT_GENERAL
-from sheetcraft.utils import get_column_letter
+from sheetforge.constants import TYPE_BOOL, TYPE_ERROR, TYPE_FORMULA, TYPE_NUMERIC, TYPE_STRING
+from sheetforge.styles.alignment import Alignment
+from sheetforge.styles.borders import Border
+from sheetforge.styles.fills import PatternFill
+from sheetforge.styles.fonts import Font
+from sheetforge.styles.numbers import FORMAT_GENERAL
+from sheetforge.utils import get_column_letter
 
 if TYPE_CHECKING:
-    from sheetcraft.styles import CellStyle, StyleSheet
+    from sheetforge.styles import CellStyle, StyleSheet
 
 # Sentinel for "no value"
 _EMPTY: object = object()

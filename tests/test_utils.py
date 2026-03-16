@@ -1,10 +1,10 @@
-"""Tests for sheetcraft.utils."""
+"""Tests for sheetforge.utils."""
 
 from __future__ import annotations
 
 import pytest
 
-from sheetcraft.utils import (
+from sheetforge.utils import (
     absolute_coordinate,
     column_index_from_string,
     cols_from_range,
@@ -14,7 +14,7 @@ from sheetcraft.utils import (
     rows_from_range,
     tuple_to_coordinate,
 )
-from sheetcraft.exceptions import CellCoordinatesException
+from sheetforge.exceptions import CellCoordinatesException
 
 
 class TestColumnIndexFromString:

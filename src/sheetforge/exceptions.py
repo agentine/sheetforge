@@ -1,10 +1,10 @@
-"""Custom exceptions for sheetcraft."""
+"""Custom exceptions for sheetforge."""
 
 from __future__ import annotations
 
 
 class SheetcraftException(Exception):
-    """Base exception for all sheetcraft errors."""
+    """Base exception for all sheetforge errors."""
 
 
 class InvalidFileException(SheetcraftException):

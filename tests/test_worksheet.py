@@ -1,11 +1,11 @@
-"""Tests for sheetcraft.worksheet."""
+"""Tests for sheetforge.worksheet."""
 
 from __future__ import annotations
 
 import pytest
 
-from sheetcraft.worksheet import Worksheet, AutoFilter, MergedCellRange
-from sheetcraft.exceptions import SheetTitleException
+from sheetforge.worksheet import Worksheet, AutoFilter, MergedCellRange
+from sheetforge.exceptions import SheetTitleException
 
 
 class TestWorksheetTitle:

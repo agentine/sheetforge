@@ -1,13 +1,13 @@
-"""Worksheet class for sheetcraft."""
+"""Worksheet class for sheetforge."""
 
 from __future__ import annotations
 
 import re
 from typing import Any, Generator, Iterator, TYPE_CHECKING
 
-from sheetcraft.cell import Cell, CellValue
-from sheetcraft.exceptions import CellCoordinatesException, SheetTitleException
-from sheetcraft.utils import (
+from sheetforge.cell import Cell, CellValue
+from sheetforge.exceptions import CellCoordinatesException, SheetTitleException
+from sheetforge.utils import (
     column_index_from_string,
     coordinate_to_tuple,
     get_column_letter,

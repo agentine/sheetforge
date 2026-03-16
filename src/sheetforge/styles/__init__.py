@@ -1,14 +1,14 @@
-"""Style types for sheetcraft."""
+"""Style types for sheetforge."""
 
 from __future__ import annotations
 
 from dataclasses import dataclass
 
-from sheetcraft.styles.alignment import Alignment, DEFAULT_ALIGNMENT
-from sheetcraft.styles.borders import Border, DEFAULT_BORDER, Side
-from sheetcraft.styles.fills import FILL_NONE, FILL_SOLID, GradientFill, PatternFill
-from sheetcraft.styles.fonts import DEFAULT_FONT, Font
-from sheetcraft.styles.numbers import (
+from sheetforge.styles.alignment import Alignment, DEFAULT_ALIGNMENT
+from sheetforge.styles.borders import Border, DEFAULT_BORDER, Side
+from sheetforge.styles.fills import FILL_NONE, FILL_SOLID, GradientFill, PatternFill
+from sheetforge.styles.fonts import DEFAULT_FONT, Font
+from sheetforge.styles.numbers import (
     BUILTIN_FORMATS,
     FORMAT_GENERAL,
     NumberFormat,

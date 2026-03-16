@@ -1,4 +1,4 @@
-"""Compatibility tests: verify sheetcraft produces structurally valid .xlsx files."""
+"""Compatibility tests: verify sheetforge produces structurally valid .xlsx files."""
 
 from __future__ import annotations
 
@@ -6,8 +6,8 @@ import io
 import xml.etree.ElementTree as ET
 import zipfile
 
-from sheetcraft import Workbook
-from sheetcraft.constants import NS_SPREADSHEETML
+from sheetforge import Workbook
+from sheetforge.constants import NS_SPREADSHEETML
 
 _NS = f"{{{NS_SPREADSHEETML}}}"
 

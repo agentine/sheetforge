@@ -1,4 +1,4 @@
-"""Shared test fixtures for sheetcraft."""
+"""Shared test fixtures for sheetforge."""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from typing import Generator
 
 import pytest
 
-from sheetcraft import Workbook
+from sheetforge import Workbook
 
 
 @pytest.fixture
