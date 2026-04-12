@@ -25,7 +25,7 @@ classifiers = [
 ]
 
 [project.optional-dependencies]
-lxml = ["lxml>=5.0"]
+lxml = ["lxml>=6.0.4"]
 
 [project.urls]
 Homepage = "https://github.com/agentine/sheetforge"
