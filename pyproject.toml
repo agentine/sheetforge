@@ -43,7 +43,7 @@ packages = ["src/sheetforge"]
 dev = [
     "mypy>=1.19",
     "pytest>=9.0",
-    "pytest-cov>=6.0",
+    "pytest-cov>=7.1.0",
     "ruff>=0.11",
 ]
 
